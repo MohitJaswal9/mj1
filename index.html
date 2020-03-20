@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nona Baaji</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+body{
+	background :#000;
+	text-align:center;
+	padding-top:150px;
+}
+h1{
+	color: #fff;
+	text-align:center;
+}
+img{
+	height:200px;
+	width:200px;
+}
+</style>
+
+</head>
+<script>
+function blink(){
+	$('h1').fadeOut();
+		$('h1').fadeIn();	
+}
+$(document).ready(function(){
+setInterval(blink,1000);
+});
+</script>
+<body>
+<img src="i1.jpg" />
+<h1>Nona Ye Tu Hai</h1>
+
+</body>
+</html>
